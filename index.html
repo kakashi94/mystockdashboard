@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Breakout Dashboard</title>
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<nav>
+  <a data-v="today" onclick="nav('today')">Today</a>
+  <a data-v="compare" onclick="nav('compare')">Compare</a>
+  <a data-v="history" onclick="nav('history')">History</a>
+  <a data-v="performance" onclick="nav('performance')">Performance</a>
+  <a data-v="strategies" onclick="nav('strategies')">Strategy Lab</a>
+  <a data-v="backtest" onclick="nav('backtest')">Backtest</a>
+  <a data-v="news" onclick="nav('news')">News</a>
+  <flex style="margin-left:auto">
+    <select id="dateSel"></select>
+  </flex>
+</nav>
+<div id="main"><div class="card">Loading…</div></div>
+<script src="/app.js"></script>
+</body>
+</html>
