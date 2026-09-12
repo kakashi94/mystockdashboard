@@ -1,0 +1,4065 @@
+{
+ "/api/dates": [
+  "2026-09-11",
+  "2026-09-10",
+  "2026-09-09"
+ ],
+ "/api/pred/": null,
+ "/api/strategy-stats": {
+  "total": 28,
+  "overall_win_rate": 32.1,
+  "outcomes": {
+   "breakout_success": 0,
+   "partial_success": 9,
+   "failed_breakout": 8,
+   "failed": 2,
+   "no_move": 9,
+   "invalidated": 0
+  },
+  "by_setup": [
+   {
+    "label": "Range breakout",
+    "n": 16,
+    "win_rate": 31.2,
+    "avg_move": -0.2
+   },
+   {
+    "label": "Consolidation breakout",
+    "n": 7,
+    "win_rate": 42.9,
+    "avg_move": 1.23
+   },
+   {
+    "label": "Trend continuation",
+    "n": 5,
+    "win_rate": 20.0,
+    "avg_move": -1.74
+   }
+  ],
+  "by_sector": [
+   {
+    "label": "Oil Gas & Consumable Fuels",
+    "n": 7,
+    "win_rate": 28.6,
+    "avg_move": -1.27
+   },
+   {
+    "label": "Capital Goods",
+    "n": 6,
+    "win_rate": 83.3,
+    "avg_move": 2.32
+   },
+   {
+    "label": "Healthcare",
+    "n": 3,
+    "win_rate": 33.3,
+    "avg_move": -0.46
+   },
+   {
+    "label": "Financial Services",
+    "n": 3,
+    "win_rate": 33.3,
+    "avg_move": 1.13
+   },
+   {
+    "label": "Metals & Mining",
+    "n": 2,
+    "win_rate": 0.0,
+    "avg_move": -2.14
+   },
+   {
+    "label": "Services",
+    "n": 2,
+    "win_rate": 0.0,
+    "avg_move": 0.02
+   },
+   {
+    "label": "Chemicals",
+    "n": 2,
+    "win_rate": 0.0,
+    "avg_move": -0.45
+   },
+   {
+    "label": "Realty",
+    "n": 1,
+    "win_rate": 0.0,
+    "avg_move": -4.77
+   },
+   {
+    "label": "Power",
+    "n": 1,
+    "win_rate": 0.0,
+    "avg_move": -0.65
+   },
+   {
+    "label": "Construction",
+    "n": 1,
+    "win_rate": 0.0,
+    "avg_move": 0.26
+   }
+  ],
+  "by_confidence_band": [
+   {
+    "label": "60-69",
+    "n": 7,
+    "win_rate": 28.6,
+    "avg_move": 0.21
+   },
+   {
+    "label": "70-79",
+    "n": 10,
+    "win_rate": 40.0,
+    "avg_move": 0.36
+   },
+   {
+    "label": "80-89",
+    "n": 11,
+    "win_rate": 27.3,
+    "avg_move": -0.76
+   }
+  ],
+  "by_fundamental_band": [
+   {
+    "label": "weak (0-7)",
+    "n": 4,
+    "win_rate": 0.0,
+    "avg_move": -1.42
+   },
+   {
+    "label": "ok (8-10)",
+    "n": 10,
+    "win_rate": 30.0,
+    "avg_move": -0.67
+   },
+   {
+    "label": "good (11-13)",
+    "n": 6,
+    "win_rate": 33.3,
+    "avg_move": 0.1
+   }
+  ],
+  "by_pattern_flag": [
+   {
+    "label": "tight_range",
+    "n": 9,
+    "win_rate": 33.3
+   },
+   {
+    "label": "higher_highs",
+    "n": 11,
+    "win_rate": 27.3
+   },
+   {
+    "label": "vol_dryup",
+    "n": 5,
+    "win_rate": 20.0
+   },
+   {
+    "label": "near_range_top",
+    "n": 19,
+    "win_rate": 26.3
+   }
+  ],
+  "by_market_regime": [
+   {
+    "label": "weak (<40)",
+    "n": 28,
+    "win_rate": 32.1,
+    "avg_move": -0.12
+   }
+  ],
+  "by_global_ctx": [
+   {
+    "label": "weak (<40)",
+    "n": 18,
+    "win_rate": 38.9,
+    "avg_move": 0.34
+   },
+   {
+    "label": "neutral (40-49)",
+    "n": 10,
+    "win_rate": 20.0,
+    "avg_move": -0.94
+   }
+  ],
+  "dates_evaluated": [
+   "2026-09-09",
+   "2026-09-10",
+   "2026-09-11"
+  ]
+ },
+ "/api/backtest": {
+  "config": {
+   "sample": 500,
+   "replay_days": 500,
+   "min_conf": 60
+  },
+  "total_trades": 4994,
+  "win_rate": 39.7,
+  "direction_accuracy": 47.8,
+  "avg_move": 0.05,
+  "by_setup": [
+   {
+    "label": "Range breakout",
+    "n": 2706,
+    "win_rate": 39.5,
+    "avg_move": 0.07
+   },
+   {
+    "label": "Trend continuation",
+    "n": 1798,
+    "win_rate": 40.5,
+    "avg_move": 0.02
+   },
+   {
+    "label": "Consolidation breakout",
+    "n": 490,
+    "win_rate": 38.4,
+    "avg_move": -0.0
+   }
+  ],
+  "by_confidence_band": [
+   {
+    "label": "60-69",
+    "n": 39,
+    "win_rate": 20.5,
+    "avg_move": 0.34
+   },
+   {
+    "label": "70-79",
+    "n": 551,
+    "win_rate": 29.9,
+    "avg_move": -0.18
+   },
+   {
+    "label": "80-89",
+    "n": 3429,
+    "win_rate": 40.2,
+    "avg_move": 0.06
+   },
+   {
+    "label": "90-100",
+    "n": 975,
+    "win_rate": 44.4,
+    "avg_move": 0.12
+   }
+  ],
+  "by_sector": [
+   {
+    "label": "Financial Services",
+    "n": 1108,
+    "win_rate": 40.0,
+    "avg_move": 0.06
+   },
+   {
+    "label": "Capital Goods",
+    "n": 621,
+    "win_rate": 41.1,
+    "avg_move": 0.13
+   },
+   {
+    "label": "Healthcare",
+    "n": 576,
+    "win_rate": 39.2,
+    "avg_move": -0.03
+   },
+   {
+    "label": "Automobile and Auto Components",
+    "n": 340,
+    "win_rate": 40.3,
+    "avg_move": 0.12
+   },
+   {
+    "label": "Metals & Mining",
+    "n": 284,
+    "win_rate": 43.0,
+    "avg_move": 0.14
+   },
+   {
+    "label": "Chemicals",
+    "n": 263,
+    "win_rate": 35.7,
+    "avg_move": -0.04
+   },
+   {
+    "label": "Information Technology",
+    "n": 242,
+    "win_rate": 38.8,
+    "avg_move": -0.25
+   },
+   {
+    "label": "Fast Moving Consumer Goods",
+    "n": 240,
+    "win_rate": 32.1,
+    "avg_move": -0.2
+   },
+   {
+    "label": "Oil Gas & Consumable Fuels",
+    "n": 195,
+    "win_rate": 36.9,
+    "avg_move": 0.01
+   },
+   {
+    "label": "Power",
+    "n": 172,
+    "win_rate": 40.1,
+    "avg_move": -0.11
+   },
+   {
+    "label": "Consumer Durables",
+    "n": 160,
+    "win_rate": 45.0,
+    "avg_move": 0.15
+   },
+   {
+    "label": "Consumer Services",
+    "n": 150,
+    "win_rate": 45.3,
+    "avg_move": 0.43
+   },
+   {
+    "label": "Services",
+    "n": 140,
+    "win_rate": 42.1,
+    "avg_move": 0.29
+   },
+   {
+    "label": "Construction Materials",
+    "n": 119,
+    "win_rate": 34.5,
+    "avg_move": -0.27
+   },
+   {
+    "label": "Realty",
+    "n": 109,
+    "win_rate": 39.4,
+    "avg_move": 0.01
+   },
+   {
+    "label": "Construction",
+    "n": 77,
+    "win_rate": 37.7,
+    "avg_move": -0.16
+   },
+   {
+    "label": "Textiles",
+    "n": 63,
+    "win_rate": 39.7,
+    "avg_move": 0.22
+   },
+   {
+    "label": "Telecommunication",
+    "n": 62,
+    "win_rate": 46.8,
+    "avg_move": 0.91
+   },
+   {
+    "label": "Media Entertainment & Publication",
+    "n": 45,
+    "win_rate": 40.0,
+    "avg_move": 0.17
+   },
+   {
+    "label": "Diversified",
+    "n": 28,
+    "win_rate": 42.9,
+    "avg_move": 0.07
+   }
+  ],
+  "outcomes": {
+   "breakout_success": 194,
+   "partial_success": 1791,
+   "failed_breakout": 930,
+   "failed": 810,
+   "no_move": 1256,
+   "invalidated": 13
+  }
+ },
+ "/api/perf": [
+  {
+   "symbol": "CGPOWER",
+   "confidence": 75,
+   "setup": "Consolidation breakout",
+   "sector": "Capital Goods",
+   "pattern_flags": [],
+   "fundamental_score": null,
+   "morning_price": 895.0,
+   "close": 927.0,
+   "high": 930.5,
+   "low": 910.0,
+   "pct_move": 3.57,
+   "mfe": 3.97,
+   "mae": 1.68,
+   "breakout_level": 916.0,
+   "target": 980.9,
+   "invalidation": 860.2,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "partial_success",
+   "date": "2026-09-09"
+  },
+  {
+   "symbol": "GRANULES",
+   "confidence": 72,
+   "setup": "Consolidation breakout",
+   "sector": "Healthcare",
+   "pattern_flags": [],
+   "fundamental_score": null,
+   "morning_price": 867.3,
+   "close": 884.8,
+   "high": 901.8,
+   "low": 878.1,
+   "pct_move": 2.02,
+   "mfe": 3.98,
+   "mae": 1.25,
+   "breakout_level": 882.0,
+   "target": 908.1,
+   "invalidation": 816.0,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "partial_success",
+   "date": "2026-09-09"
+  },
+  {
+   "symbol": "BRIGADE",
+   "confidence": 65,
+   "setup": "Trend continuation",
+   "sector": "Realty",
+   "pattern_flags": [],
+   "fundamental_score": null,
+   "morning_price": 696.1,
+   "close": 662.9,
+   "high": 689.3,
+   "low": 656.3,
+   "pct_move": -4.77,
+   "mfe": -0.98,
+   "mae": -5.72,
+   "breakout_level": 735.0,
+   "target": 799.2,
+   "invalidation": 576.0,
+   "breakout_hit": false,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "failed",
+   "date": "2026-09-09"
+  },
+  {
+   "symbol": "EMMVEE",
+   "confidence": 65,
+   "setup": "Range breakout",
+   "sector": "Capital Goods",
+   "pattern_flags": [],
+   "fundamental_score": null,
+   "morning_price": 325.2,
+   "close": 328.9,
+   "high": 338.0,
+   "low": 328.0,
+   "pct_move": 1.14,
+   "mfe": 3.94,
+   "mae": 0.85,
+   "breakout_level": 339.6,
+   "target": 371.5,
+   "invalidation": 313.5,
+   "breakout_hit": false,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "no_move",
+   "date": "2026-09-09"
+  },
+  {
+   "symbol": "GAIL",
+   "confidence": 62,
+   "setup": "Consolidation breakout",
+   "sector": "Oil Gas & Consumable Fuels",
+   "pattern_flags": [],
+   "fundamental_score": null,
+   "morning_price": 176.0,
+   "close": 174.9,
+   "high": 175.6,
+   "low": 173.6,
+   "pct_move": -0.63,
+   "mfe": -0.23,
+   "mae": -1.36,
+   "breakout_level": 177.4,
+   "target": 181.9,
+   "invalidation": 169.6,
+   "breakout_hit": false,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "no_move",
+   "date": "2026-09-09"
+  },
+  {
+   "symbol": "GVT&D",
+   "confidence": 60,
+   "setup": "Range breakout",
+   "sector": "Capital Goods",
+   "pattern_flags": [],
+   "fundamental_score": null,
+   "morning_price": 4367.2,
+   "close": 4673.0,
+   "high": 4825.0,
+   "low": 4638.8,
+   "pct_move": 7.0,
+   "mfe": 10.48,
+   "mae": 6.22,
+   "breakout_level": 4539.0,
+   "target": 5636.0,
+   "invalidation": 4025.0,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "partial_success",
+   "date": "2026-09-09"
+  },
+  {
+   "symbol": "HOMEFIRST",
+   "confidence": 60,
+   "setup": "Consolidation breakout",
+   "sector": "Financial Services",
+   "pattern_flags": [],
+   "fundamental_score": null,
+   "morning_price": 1210.1,
+   "close": 1202.3,
+   "high": 1231.0,
+   "low": 1190.5,
+   "pct_move": -0.64,
+   "mfe": 1.73,
+   "mae": -1.62,
+   "breakout_level": 1229.0,
+   "target": 1311.6,
+   "invalidation": 1151.9,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "failed_breakout",
+   "date": "2026-09-09"
+  },
+  {
+   "symbol": "KIRLOSENG",
+   "confidence": 60,
+   "setup": "Range breakout",
+   "sector": "Capital Goods",
+   "pattern_flags": [],
+   "fundamental_score": null,
+   "morning_price": 2201.9,
+   "close": 2219.9,
+   "high": 2317.1,
+   "low": 2198.0,
+   "pct_move": 0.82,
+   "mfe": 5.23,
+   "mae": -0.18,
+   "breakout_level": 2289.0,
+   "target": 2714.3,
+   "invalidation": 2024.1,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "partial_success",
+   "date": "2026-09-09"
+  },
+  {
+   "symbol": "SARDAEN",
+   "confidence": 89,
+   "setup": "Range breakout",
+   "sector": "Metals & Mining",
+   "pattern_flags": [
+    "higher_highs",
+    "vol_dryup",
+    "near_range_top"
+   ],
+   "fundamental_score": 10,
+   "morning_price": 545.8,
+   "close": 537.2,
+   "high": 555.0,
+   "low": 535.2,
+   "pct_move": -1.57,
+   "mfe": 1.69,
+   "mae": -1.95,
+   "breakout_level": 554.7,
+   "target": 637.3,
+   "invalidation": 486.0,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "failed_breakout",
+   "date": "2026-09-10"
+  },
+  {
+   "symbol": "ADANIPOWER",
+   "confidence": 87,
+   "setup": "Range breakout",
+   "sector": "Power",
+   "pattern_flags": [
+    "tight_range",
+    "vol_dryup",
+    "near_range_top"
+   ],
+   "fundamental_score": 10,
+   "morning_price": 214.9,
+   "close": 213.5,
+   "high": 215.3,
+   "low": 212.5,
+   "pct_move": -0.65,
+   "mfe": 0.18,
+   "mae": -1.12,
+   "breakout_level": 217.4,
+   "target": 254.2,
+   "invalidation": 198.0,
+   "breakout_hit": false,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "no_move",
+   "date": "2026-09-10"
+  },
+  {
+   "symbol": "COALINDIA",
+   "confidence": 87,
+   "setup": "Range breakout",
+   "sector": "Oil Gas & Consumable Fuels",
+   "pattern_flags": [
+    "higher_highs",
+    "near_range_top"
+   ],
+   "fundamental_score": 10,
+   "morning_price": 431.0,
+   "close": 432.0,
+   "high": 436.3,
+   "low": 430.0,
+   "pct_move": 0.23,
+   "mfe": 1.23,
+   "mae": -0.23,
+   "breakout_level": 435.4,
+   "target": 478.7,
+   "invalidation": 390.9,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "partial_success",
+   "date": "2026-09-10"
+  },
+  {
+   "symbol": "ADANIPORTS",
+   "confidence": 86,
+   "setup": "Range breakout",
+   "sector": "Services",
+   "pattern_flags": [
+    "near_range_top"
+   ],
+   "fundamental_score": 9,
+   "morning_price": 1775.0,
+   "close": 1768.0,
+   "high": 1780.0,
+   "low": 1750.4,
+   "pct_move": -0.39,
+   "mfe": 0.28,
+   "mae": -1.39,
+   "breakout_level": 1785.9,
+   "target": 1891.1,
+   "invalidation": 1593.1,
+   "breakout_hit": false,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "no_move",
+   "date": "2026-09-10"
+  },
+  {
+   "symbol": "OIL",
+   "confidence": 85,
+   "setup": "Range breakout",
+   "sector": "Oil Gas & Consumable Fuels",
+   "pattern_flags": [
+    "tight_range",
+    "higher_highs",
+    "vol_dryup",
+    "near_range_top"
+   ],
+   "fundamental_score": 10,
+   "morning_price": 499.0,
+   "close": 500.3,
+   "high": 514.5,
+   "low": 497.8,
+   "pct_move": 0.26,
+   "mfe": 3.1,
+   "mae": -0.25,
+   "breakout_level": 504.9,
+   "target": 529.9,
+   "invalidation": 457.8,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "partial_success",
+   "date": "2026-09-10"
+  },
+  {
+   "symbol": "MRPL",
+   "confidence": 84,
+   "setup": "Range breakout",
+   "sector": "Oil Gas & Consumable Fuels",
+   "pattern_flags": [
+    "higher_highs",
+    "near_range_top"
+   ],
+   "fundamental_score": 7,
+   "morning_price": 184.5,
+   "close": 181.3,
+   "high": 191.9,
+   "low": 176.0,
+   "pct_move": -1.72,
+   "mfe": 4.01,
+   "mae": -4.6,
+   "breakout_level": 189.0,
+   "target": 212.0,
+   "invalidation": 167.1,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "failed_breakout",
+   "date": "2026-09-10"
+  },
+  {
+   "symbol": "AEGISVOPAK",
+   "confidence": 83,
+   "setup": "Range breakout",
+   "sector": "Oil Gas & Consumable Fuels",
+   "pattern_flags": [
+    "near_range_top"
+   ],
+   "fundamental_score": 6,
+   "morning_price": 297.6,
+   "close": 291.9,
+   "high": 300.7,
+   "low": 289.2,
+   "pct_move": -1.93,
+   "mfe": 1.04,
+   "mae": -2.81,
+   "breakout_level": 299.4,
+   "target": 311.5,
+   "invalidation": 258.3,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "failed_breakout",
+   "date": "2026-09-10"
+  },
+  {
+   "symbol": "PCBL",
+   "confidence": 82,
+   "setup": "Range breakout",
+   "sector": "Chemicals",
+   "pattern_flags": [
+    "tight_range",
+    "near_range_top"
+   ],
+   "fundamental_score": 7,
+   "morning_price": 335.0,
+   "close": 334.8,
+   "high": 346.0,
+   "low": 333.1,
+   "pct_move": -0.06,
+   "mfe": 3.28,
+   "mae": -0.57,
+   "breakout_level": 341.5,
+   "target": 413.2,
+   "invalidation": 308.1,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "failed_breakout",
+   "date": "2026-09-10"
+  },
+  {
+   "symbol": "JSL",
+   "confidence": 81,
+   "setup": "Range breakout",
+   "sector": "Metals & Mining",
+   "pattern_flags": [
+    "higher_highs",
+    "near_range_top"
+   ],
+   "fundamental_score": 10,
+   "morning_price": 783.3,
+   "close": 762.2,
+   "high": 790.5,
+   "low": 760.1,
+   "pct_move": -2.7,
+   "mfe": 0.92,
+   "mae": -2.96,
+   "breakout_level": 794.0,
+   "target": 879.2,
+   "invalidation": 696.0,
+   "breakout_hit": false,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "failed",
+   "date": "2026-09-10"
+  },
+  {
+   "symbol": "NAVINFLUOR",
+   "confidence": 80,
+   "setup": "Range breakout",
+   "sector": "Chemicals",
+   "pattern_flags": [
+    "tight_range",
+    "higher_highs",
+    "near_range_top"
+   ],
+   "fundamental_score": 9,
+   "morning_price": 8775.5,
+   "close": 8700.5,
+   "high": 8771.5,
+   "low": 8622.0,
+   "pct_move": -0.85,
+   "mfe": -0.05,
+   "mae": -1.75,
+   "breakout_level": 8949.5,
+   "target": 8949.5,
+   "invalidation": 8090.0,
+   "breakout_hit": false,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "no_move",
+   "date": "2026-09-10"
+  },
+  {
+   "symbol": "EMMVEE",
+   "confidence": 81,
+   "score_breakdown": {
+    "tech": 20,
+    "volume": 15,
+    "momentum": 13,
+    "rs": 10,
+    "proximity": 10,
+    "rr": 10,
+    "pattern": 4,
+    "news": 0,
+    "fundamental": 11
+   },
+   "setup": "Range breakout",
+   "sector": "Capital Goods",
+   "pattern_flags": [
+    "tight_range",
+    "near_range_top"
+   ],
+   "fundamental_score": 11,
+   "morning_price": 342.6,
+   "close": 346.0,
+   "high": 348.2,
+   "low": 332.9,
+   "pct_move": 0.99,
+   "mfe": 1.63,
+   "mae": -2.83,
+   "breakout_level": 344.9,
+   "target": 371.5,
+   "invalidation": 314.4,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "partial_success",
+   "date": "2026-09-11"
+  },
+  {
+   "symbol": "ABSLAMC",
+   "confidence": 78,
+   "score_breakdown": {
+    "tech": 20,
+    "volume": 10,
+    "momentum": 13,
+    "rs": 10,
+    "proximity": 10,
+    "rr": 10,
+    "pattern": 4,
+    "news": 0,
+    "fundamental": 10
+   },
+   "setup": "Consolidation breakout",
+   "sector": "Financial Services",
+   "pattern_flags": [
+    "tight_range",
+    "near_range_top"
+   ],
+   "fundamental_score": 10,
+   "morning_price": 1066.5,
+   "close": 1109.9,
+   "high": 1116.9,
+   "low": 1067.1,
+   "pct_move": 4.07,
+   "mfe": 4.73,
+   "mae": 0.06,
+   "breakout_level": 1070.3,
+   "target": 1195.0,
+   "invalidation": 990.3,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "partial_success",
+   "date": "2026-09-11"
+  },
+  {
+   "symbol": "ACUTAAS",
+   "confidence": 78,
+   "score_breakdown": {
+    "tech": 20,
+    "volume": 15,
+    "momentum": 13,
+    "rs": 10,
+    "proximity": 10,
+    "rr": 10,
+    "pattern": 3,
+    "news": 0,
+    "fundamental": 7
+   },
+   "setup": "Range breakout",
+   "sector": "Healthcare",
+   "pattern_flags": [
+    "near_range_top"
+   ],
+   "fundamental_score": 7,
+   "morning_price": 3451.4,
+   "close": 3383.7,
+   "high": 3488.0,
+   "low": 3350.0,
+   "pct_move": -1.96,
+   "mfe": 1.06,
+   "mae": -2.94,
+   "breakout_level": 3464.0,
+   "target": 3740.0,
+   "invalidation": 3081.2,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "failed_breakout",
+   "date": "2026-09-11"
+  },
+  {
+   "symbol": "FINCABLES",
+   "confidence": 78,
+   "score_breakdown": {
+    "tech": 20,
+    "volume": 15,
+    "momentum": 13,
+    "rs": 10,
+    "proximity": 10,
+    "rr": 3,
+    "pattern": 5,
+    "news": 0,
+    "fundamental": 11
+   },
+   "setup": "Trend continuation",
+   "sector": "Capital Goods",
+   "pattern_flags": [
+    "higher_highs",
+    "near_range_top"
+   ],
+   "fundamental_score": 11,
+   "morning_price": 1418.4,
+   "close": 1424.0,
+   "high": 1498.0,
+   "low": 1340.1,
+   "pct_move": 0.39,
+   "mfe": 5.61,
+   "mae": -5.52,
+   "breakout_level": 1429.0,
+   "target": 1429.0,
+   "invalidation": 1178.1,
+   "breakout_hit": true,
+   "target_hit": true,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "partial_success",
+   "date": "2026-09-11"
+  },
+  {
+   "symbol": "OIL",
+   "confidence": 76,
+   "score_breakdown": {
+    "tech": 20,
+    "volume": 10,
+    "momentum": 13,
+    "rs": 5,
+    "proximity": 7,
+    "rr": 10,
+    "pattern": 9,
+    "news": 0,
+    "fundamental": 10
+   },
+   "setup": "Range breakout",
+   "sector": "Oil Gas & Consumable Fuels",
+   "pattern_flags": [
+    "tight_range",
+    "higher_highs",
+    "vol_dryup",
+    "near_range_top"
+   ],
+   "fundamental_score": 10,
+   "morning_price": 499.0,
+   "close": 489.8,
+   "high": 512.0,
+   "low": 485.4,
+   "pct_move": -1.84,
+   "mfe": 2.6,
+   "mae": -2.73,
+   "breakout_level": 504.9,
+   "target": 529.9,
+   "invalidation": 457.8,
+   "breakout_hit": true,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "failed_breakout",
+   "date": "2026-09-11"
+  },
+  {
+   "symbol": "PNB",
+   "confidence": 74,
+   "score_breakdown": {
+    "tech": 20,
+    "volume": 15,
+    "momentum": 8,
+    "rs": 5,
+    "proximity": 7,
+    "rr": 10,
+    "pattern": 4,
+    "news": 0,
+    "fundamental": 12
+   },
+   "setup": "Consolidation breakout",
+   "sector": "Financial Services",
+   "pattern_flags": [
+    "tight_range"
+   ],
+   "fundamental_score": 12,
+   "morning_price": 116.8,
+   "close": 116.8,
+   "high": 117.8,
+   "low": 114.5,
+   "pct_move": -0.04,
+   "mfe": 0.85,
+   "mae": -1.95,
+   "breakout_level": 119.1,
+   "target": 131.3,
+   "invalidation": 113.2,
+   "breakout_hit": false,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "no_move",
+   "date": "2026-09-11"
+  },
+  {
+   "symbol": "REDINGTON",
+   "confidence": 72,
+   "score_breakdown": {
+    "tech": 20,
+    "volume": 15,
+    "momentum": 7,
+    "rs": 10,
+    "proximity": 7,
+    "rr": 3,
+    "pattern": 5,
+    "news": 0,
+    "fundamental": 11
+   },
+   "setup": "Trend continuation",
+   "sector": "Services",
+   "pattern_flags": [
+    "higher_highs",
+    "near_range_top"
+   ],
+   "fundamental_score": 11,
+   "morning_price": 392.0,
+   "close": 393.7,
+   "high": 396.9,
+   "low": 384.2,
+   "pct_move": 0.43,
+   "mfe": 1.24,
+   "mae": -1.99,
+   "breakout_level": 403.2,
+   "target": 403.2,
+   "invalidation": 322.7,
+   "breakout_hit": false,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "no_move",
+   "date": "2026-09-11"
+  },
+  {
+   "symbol": "CHENNPETRO",
+   "confidence": 71,
+   "score_breakdown": {
+    "tech": 20,
+    "volume": 15,
+    "momentum": 7,
+    "rs": 10,
+    "proximity": 7,
+    "rr": 3,
+    "pattern": 5,
+    "news": 0,
+    "fundamental": 9
+   },
+   "setup": "Trend continuation",
+   "sector": "Oil Gas & Consumable Fuels",
+   "pattern_flags": [
+    "higher_highs",
+    "near_range_top"
+   ],
+   "fundamental_score": 9,
+   "morning_price": 1626.4,
+   "close": 1572.9,
+   "high": 1677.5,
+   "low": 1563.1,
+   "pct_move": -3.29,
+   "mfe": 3.14,
+   "mae": -3.89,
+   "breakout_level": 1663.3,
+   "target": 1663.3,
+   "invalidation": 1309.1,
+   "breakout_hit": true,
+   "target_hit": true,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "failed_breakout",
+   "date": "2026-09-11"
+  },
+  {
+   "symbol": "KPIL",
+   "confidence": 70,
+   "score_breakdown": {
+    "tech": 20,
+    "volume": 5,
+    "momentum": 13,
+    "rs": 10,
+    "proximity": 7,
+    "rr": 3,
+    "pattern": 6,
+    "news": 0,
+    "fundamental": 11
+   },
+   "setup": "Consolidation breakout",
+   "sector": "Construction",
+   "pattern_flags": [
+    "tight_range",
+    "vol_dryup",
+    "near_range_top"
+   ],
+   "fundamental_score": 11,
+   "morning_price": 1432.0,
+   "close": 1435.7,
+   "high": 1442.0,
+   "low": 1401.1,
+   "pct_move": 0.26,
+   "mfe": 0.7,
+   "mae": -2.16,
+   "breakout_level": 1452.7,
+   "target": 1468.0,
+   "invalidation": 1342.8,
+   "breakout_hit": false,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": true,
+   "outcome": "no_move",
+   "date": "2026-09-11"
+  },
+  {
+   "symbol": "CAPLIPOINT",
+   "confidence": 69,
+   "score_breakdown": {
+    "tech": 20,
+    "volume": 5,
+    "momentum": 13,
+    "rs": 10,
+    "proximity": 7,
+    "rr": 3,
+    "pattern": 5,
+    "news": 0,
+    "fundamental": 11
+   },
+   "setup": "Trend continuation",
+   "sector": "Healthcare",
+   "pattern_flags": [
+    "higher_highs",
+    "near_range_top"
+   ],
+   "fundamental_score": 11,
+   "morning_price": 2795.4,
+   "close": 2754.9,
+   "high": 2790.1,
+   "low": 2716.0,
+   "pct_move": -1.45,
+   "mfe": -0.19,
+   "mae": -2.84,
+   "breakout_level": 2877.3,
+   "target": 2877.3,
+   "invalidation": 2382.5,
+   "breakout_hit": false,
+   "target_hit": false,
+   "invalidated": false,
+   "direction_correct": false,
+   "outcome": "no_move",
+   "date": "2026-09-11"
+  }
+ ],
+ "/api/chart": {
+  "error": "usage: /api/chart?symbol=TCS&tf=1d|15m|30m|1h"
+ },
+ "/api/pred": null,
+ "/api/live": [],
+ "/api/pred/2026-09-10": {
+  "date": "2026-09-10",
+  "scan_timestamp": "2026-09-10T07:01:48",
+  "frozen": true,
+  "global_context": {
+   "score": 40,
+   "regime": "Headwind",
+   "labels": [
+    "SPX -0.48%",
+    "NDX -0.29%",
+    "VIX 16",
+    "DXY +0.02%",
+    "NI225 -1.32%",
+    "HSI -1.15%",
+    "GIFT Nifty -0.12%",
+    "USDINR -0.04%",
+    "US10Y 4.83% (+0.03)"
+   ],
+   "raw": {
+    "SP:SPX": 7636.36,
+    "NASDAQ:NDX": 29421.55,
+    "NASDAQ:QQQ": 716.31,
+    "AMEX:SPY": 762.4,
+    "AMEX:DIA": 524.07,
+    "AMEX:IWM": 290.64,
+    "TVC:VIX": 16.47,
+    "TVC:DXY": 98.8,
+    "AMEX:GLD": 403.35,
+    "AMEX:USO": 149.97,
+    "TVC:NI225": 64283.99,
+    "TVC:HSI": 24985.18,
+    "NSEIX:NIFTY1!": 23463,
+    "FX_IDC:USDINR": 95.09
+   },
+   "us10y": {
+    "yield": 4.83,
+    "chg_1d": 0.03,
+    "date": "09/09/2026",
+    "ok": true
+   },
+   "missing": []
+  },
+  "market_regime": {
+   "score": 26,
+   "regime": "Bearish",
+   "nifty_close": 23431.5
+  },
+  "news_snapshot": {
+   "nse_filings": [
+    {
+     "feed": "announcements",
+     "title": "Juniper Green Energy Limited",
+     "published": "10-Sep-2026 01:05:43"
+    },
+    {
+     "feed": "announcements",
+     "title": "Juniper Green Energy Limited",
+     "published": "10-Sep-2026 01:01:32"
+    },
+    {
+     "feed": "announcements",
+     "title": "Suryoday Small Finance Bank Limited",
+     "published": "10-Sep-2026 00:35:04"
+    },
+    {
+     "feed": "announcements",
+     "title": "Sarthak Metals Limited",
+     "published": "10-Sep-2026 00:05:12"
+    },
+    {
+     "feed": "announcements",
+     "title": "Shalimar Paints Limited",
+     "published": "10-Sep-2026 00:02:21"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 17:39:16"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 17:39:15"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 13:25:32"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 13:25:31"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pearl Global Industries Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "The Phoenix Mills Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pitti Engineering Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pondy Oxides & Chemicals Limited - Ex-Date: 15-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Poddar Pigments Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Power Mech Projects Limited - Ex-Date: 10-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "PPAP Automotive Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pyramid Technoplast Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Radiant Cash Management Services Limited - Ex-Date: 10-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Relaxo Footwears Limited - Ex-Date: 18-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Orient Refractories Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Rupa & Company Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Sandhar Technologies Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Suratwwala Business Group Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Shaily Engineering Plastics Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "10-Sep-2026 06:09:39"
+    }
+   ],
+   "global_headlines": [
+    {
+     "topic": "india_macro",
+     "title": "SEBI Chairman calls for Fintech innovation with investor protection and market integrity - newsonair.gov.in",
+     "published": "Wed, 09 Sep 2026 15:04:47 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "SEBI lifts ban on JPMorgan unit Copthall, Mansi over index manipulation charge; CAS restriction stays - Moneycontrol.com",
+     "published": "Wed, 09 Sep 2026 12:35:04 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "India markets regulator proposes easing board rules for stock exchanges, other market institutions - Reuters",
+     "published": "Wed, 09 Sep 2026 19:15:01 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "Sebi lifts ban on JPMorgan unit, Mansi in CAS manipulation charges - The New Indian Express",
+     "published": "Wed, 09 Sep 2026 15:37:54 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "Sebi proposes easier director eligibility, standard norms for key officials at MIIs - bfsi.economictimes.indiatimes.com",
+     "published": "Wed, 09 Sep 2026 12:05:24 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "Sebi lifts trading ban on JPMorgan unit in alleged CAS manipulation case - Fortune India",
+     "published": "Wed, 09 Sep 2026 13:45:12 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "JPMorgan, Jane Street Probes Show India Scrutinizing Traders - Bloomberg.com",
+     "published": "Wed, 09 Sep 2026 13:16:07 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "RBI exploring gold tokenization, says its executive director at GFF - MediaNama",
+     "published": "Wed, 09 Sep 2026 10:30:27 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "Sebi eases commodity position limits, caps penalties for breaches - Livemint",
+     "published": "Wed, 09 Sep 2026 15:59:47 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "RBI explores tokenising gold amid push to expand Unified Markets Interface - The Economic Times",
+     "published": "Wed, 09 Sep 2026 11:51:48 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "How Will Less Fed Transparency Affect Markets and the Economy? - goldmansachs.com",
+     "published": "Wed, 09 Sep 2026 19:01:05 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Gold Steadies Near $4,400 as Traders Weigh Fed Rate-Hike Path - Livemint",
+     "published": "Thu, 10 Sep 2026 00:25:51 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "TD Securities flags inflation data as key catalyst for gold amid Fed hike pricing, resilient demand - VT Markets",
+     "published": "Wed, 09 Sep 2026 20:13:43 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Why Markets May Be Overpricing A September Fed Rate Hike - Forbes",
+     "published": "Wed, 09 Sep 2026 18:13:50 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Gold faces a critical test as markets reprice Fed rate expectations - Business Standard",
+     "published": "Wed, 09 Sep 2026 09:52:38 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Market Minute: Inflation data set to support Fed rate hike - The Real Economy Blog",
+     "published": "Wed, 09 Sep 2026 10:00:11 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Gold Spikes 3% After Fresh Poll Signals No Fed Rate Hike In 2026 - NDTV Profit",
+     "published": "Wed, 09 Sep 2026 14:32:01 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Financial markets remain 'genuinely divided' over next week's Fed decision - FXStreet",
+     "published": "Wed, 09 Sep 2026 10:55:57 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "US stock market: Dow, Nasdaq, S&P 500 fall as oil tops $100, Fed rate hike bets rise | Business News - Hindustan Times",
+     "published": "Wed, 09 Sep 2026 15:15:53 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Markets brace for CPI, PPI reports ahead of Fed meeting - Fox Business",
+     "published": "Wed, 09 Sep 2026 19:19:02 GMT"
+    }
+   ],
+   "pick_alerts": [
+    {
+     "symbol": "ADANIPOWER",
+     "headlines": [
+      "Adani Power Transfers 2,500 MW Renewable Power Contract; Shares Rise 1.09% - HDFC Sky",
+      "Adani Power shares surge 54% in 6 months: Buy on dips or book profit? Analysts weigh in - Business Today",
+      "Two Trades for Today: A power equipment maker for a 6.9% upmove, a large-cap thermal power stock for a gai - The Economi"
+     ]
+    },
+    {
+     "symbol": "COALINDIA",
+     "headlines": [
+      "Stocks in news: Reliance Industries, Wipro, ICICI Bank, Coal India and Hindustan Zinc - The Economic Times",
+      "Adani Enterprises to Coal India: Top five NIFTY50 stocks outperforming index over last five trading sessions; check list",
+      "Top stocks in focus tomorrow: Investors must watch Coal India, Shakti Pumps, Wipro shares on Thu, 10 Sept | Triggers - L"
+     ]
+    },
+    {
+     "symbol": "ADANIPORTS",
+     "headlines": [
+      "Adani Ports Emerges As Highest Bidder for 18-MMT Paradip Dry Bulk Berths - HDFC Sky",
+      "News by CNBC TV18 on TradingView, 2026-09-09 \u2014 cnbctv:a30534b06094b:0 - TradingView",
+      "Adani Power, Adani Enterprises to Adani Ports \u2014 Why are Gautam Adani's Group stocks rising today? Explained - Livemint"
+     ]
+    },
+    {
+     "symbol": "OIL",
+     "headlines": [
+      "S&P 500 ends down as oil tops $100 per barrel - Reuters",
+      "U.S. Crude Stocks Edge Lower as Oil Tops $100 - Crude Oil Prices Today | OilPrice.com",
+      "Dow Jones Futures: Oil Prices, Yields Hit Stocks, Apple Unfolds iPhone. Inflation Data Due. - Investor's Business Daily"
+     ]
+    }
+   ],
+   "sources_ok": [
+    "nse_rss",
+    "google_news_rss"
+   ]
+  },
+  "data_completeness_pct": 100,
+  "universe": 501,
+  "scanned": 501,
+  "nifty_chg_1d": -0.86,
+  "data_sources": {
+   "indicators": "tradingview_ta 1d",
+   "history": "yfinance 1y EOD",
+   "news": "NSE RSS + Google News RSS",
+   "global": "TV + US Treasury",
+   "audit": "All free sources; delayed EOD data (\u00a717)"
+  },
+  "picks": [
+   {
+    "symbol": "SARDAEN",
+    "sector": "Metals & Mining",
+    "price": 545.8,
+    "breakout_level": 554.7,
+    "target": 637.3,
+    "invalidation": 486.0,
+    "confidence": 89,
+    "rr": 6.4,
+    "setup": "Range breakout",
+    "vol_ratio": 2.94,
+    "pct_from_52h": -14.4,
+    "rsi": 68.1,
+    "fundamentals": {
+     "pe": 16.206947,
+     "pb": 2.6119099,
+     "roe": null,
+     "de": 35.204,
+     "earnings_growth": 0.054,
+     "mcap": 192347308032,
+     "score": 10
+    },
+    "pattern_flags": [
+     "higher_highs",
+     "vol_dryup",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 8,
+     "news": 0,
+     "fundamental": 10
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "ADANIPOWER",
+    "sector": "Power",
+    "price": 214.9,
+    "breakout_level": 217.4,
+    "target": 254.2,
+    "invalidation": 198.0,
+    "confidence": 87,
+    "rr": 8.5,
+    "setup": "Range breakout",
+    "vol_ratio": 1.57,
+    "pct_from_52h": -15.5,
+    "rsi": 57.2,
+    "fundamentals": {
+     "pe": 28.165136,
+     "pb": 6.3819675,
+     "roe": null,
+     "de": 82.332,
+     "earnings_growth": 0.444,
+     "mcap": 4144280895488,
+     "score": 10
+    },
+    "pattern_flags": [
+     "tight_range",
+     "vol_dryup",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 6,
+     "news": 0,
+     "fundamental": 10
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "COALINDIA",
+    "sector": "Oil Gas & Consumable Fuels",
+    "price": 431.0,
+    "breakout_level": 435.4,
+    "target": 478.7,
+    "invalidation": 390.9,
+    "confidence": 87,
+    "rr": 5.5,
+    "setup": "Range breakout",
+    "vol_ratio": 2.08,
+    "pct_from_52h": -10.0,
+    "rsi": 67.6,
+    "fundamentals": {
+     "pe": 8.524525,
+     "pb": 2.2299254,
+     "roe": null,
+     "de": 11.629,
+     "earnings_growth": 0.012,
+     "mcap": 2656136069120,
+     "score": 10
+    },
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 6,
+     "news": 0,
+     "fundamental": 10
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "ADANIPORTS",
+    "sector": "Services",
+    "price": 1775.0,
+    "breakout_level": 1785.9,
+    "target": 1891.1,
+    "invalidation": 1593.1,
+    "confidence": 86,
+    "rr": 4.1,
+    "setup": "Range breakout",
+    "vol_ratio": 2.25,
+    "pct_from_52h": -6.1,
+    "rsi": 60.5,
+    "fundamentals": {
+     "pe": 30.264278,
+     "pb": 4.261756,
+     "roe": null,
+     "de": 64.051,
+     "earnings_growth": 0.024,
+     "mcap": 4089527402496,
+     "score": 9
+    },
+    "pattern_flags": [
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 10,
+     "rr": 10,
+     "pattern": 3,
+     "news": 0,
+     "fundamental": 9
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "OIL",
+    "sector": "Oil Gas & Consumable Fuels",
+    "price": 499.0,
+    "breakout_level": 504.9,
+    "target": 529.9,
+    "invalidation": 457.8,
+    "confidence": 85,
+    "rr": 2.8,
+    "setup": "Range breakout",
+    "vol_ratio": 1.13,
+    "pct_from_52h": -5.8,
+    "rsi": 65.6,
+    "fundamentals": {
+     "pe": 9.712868,
+     "pb": 1.3991162,
+     "roe": null,
+     "de": 58.741,
+     "earnings_growth": 0.914,
+     "mcap": 811595923456,
+     "score": 10
+    },
+    "pattern_flags": [
+     "tight_range",
+     "higher_highs",
+     "vol_dryup",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 10,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 9,
+     "news": 0,
+     "fundamental": 10
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "MRPL",
+    "sector": "Oil Gas & Consumable Fuels",
+    "price": 184.5,
+    "breakout_level": 189.0,
+    "target": 212.0,
+    "invalidation": 167.1,
+    "confidence": 84,
+    "rr": 4.3,
+    "setup": "Range breakout",
+    "vol_ratio": 4.14,
+    "pct_from_52h": -13.0,
+    "rsi": 64.0,
+    "fundamentals": {
+     "pe": 10.293527,
+     "pb": 2.2687411,
+     "roe": null,
+     "de": 108.059,
+     "earnings_growth": null,
+     "mcap": 323284369408,
+     "score": 7
+    },
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 6,
+     "news": 0,
+     "fundamental": 7
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "AEGISVOPAK",
+    "sector": "Oil Gas & Consumable Fuels",
+    "price": 297.6,
+    "breakout_level": 299.4,
+    "target": 311.5,
+    "invalidation": 258.3,
+    "confidence": 83,
+    "rr": 2.9,
+    "setup": "Range breakout",
+    "vol_ratio": 2.24,
+    "pct_from_52h": -4.4,
+    "rsi": 65.1,
+    "fundamentals": {
+     "pe": 105.17668,
+     "pb": 7.6864476,
+     "roe": null,
+     "de": 84.438,
+     "earnings_growth": 0.304,
+     "mcap": 329793667072,
+     "score": 6
+    },
+    "pattern_flags": [
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 10,
+     "rr": 10,
+     "pattern": 3,
+     "news": 0,
+     "fundamental": 6
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "PCBL",
+    "sector": "Chemicals",
+    "price": 335.0,
+    "breakout_level": 341.5,
+    "target": 413.2,
+    "invalidation": 308.1,
+    "confidence": 82,
+    "rr": 7.9,
+    "setup": "Range breakout",
+    "vol_ratio": 4.13,
+    "pct_from_52h": -18.9,
+    "rsi": 61.4,
+    "fundamentals": {
+     "pe": 50.90426,
+     "pb": 3.299155,
+     "roe": null,
+     "de": 124.132,
+     "earnings_growth": 0.589,
+     "mcap": 131790299136,
+     "score": 7
+    },
+    "pattern_flags": [
+     "tight_range",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 4,
+     "news": 0,
+     "fundamental": 7
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "JSL",
+    "sector": "Metals & Mining",
+    "price": 783.3,
+    "breakout_level": 794.0,
+    "target": 879.2,
+    "invalidation": 696.0,
+    "confidence": 81,
+    "rr": 5.2,
+    "setup": "Range breakout",
+    "vol_ratio": 8.31,
+    "pct_from_52h": -10.9,
+    "rsi": 73.3,
+    "fundamentals": {
+     "pe": 19.890806,
+     "pb": 14.339063,
+     "roe": null,
+     "de": 37.523,
+     "earnings_growth": 0.076,
+     "mcap": 645399904256,
+     "score": 10
+    },
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 7,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 6,
+     "news": 0,
+     "fundamental": 10
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "NAVINFLUOR",
+    "sector": "Chemicals",
+    "price": 8775.5,
+    "breakout_level": 8949.5,
+    "target": 8949.5,
+    "invalidation": 8090.0,
+    "confidence": 80,
+    "rr": 0.7,
+    "setup": "Range breakout",
+    "vol_ratio": 2.25,
+    "pct_from_52h": -1.9,
+    "rsi": 64.9,
+    "fundamentals": {
+     "pe": 56.784653,
+     "pb": 11.31521,
+     "roe": null,
+     "de": 32.091,
+     "earnings_growth": 1.009,
+     "mcap": 450254340096,
+     "score": 9
+    },
+    "pattern_flags": [
+     "tight_range",
+     "higher_highs",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 3,
+     "pattern": 7,
+     "news": 0,
+     "fundamental": 9
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   }
+  ],
+  "results": [
+   {
+    "symbol": "SARDAEN",
+    "confidence": 89,
+    "setup": "Range breakout",
+    "sector": "Metals & Mining",
+    "pattern_flags": [
+     "higher_highs",
+     "vol_dryup",
+     "near_range_top"
+    ],
+    "fundamental_score": 10,
+    "morning_price": 545.8,
+    "close": 537.2,
+    "high": 555.0,
+    "low": 535.2,
+    "pct_move": -1.57,
+    "mfe": 1.69,
+    "mae": -1.95,
+    "breakout_level": 554.7,
+    "target": 637.3,
+    "invalidation": 486.0,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "failed_breakout"
+   },
+   {
+    "symbol": "ADANIPOWER",
+    "confidence": 87,
+    "setup": "Range breakout",
+    "sector": "Power",
+    "pattern_flags": [
+     "tight_range",
+     "vol_dryup",
+     "near_range_top"
+    ],
+    "fundamental_score": 10,
+    "morning_price": 214.9,
+    "close": 213.5,
+    "high": 215.3,
+    "low": 212.5,
+    "pct_move": -0.65,
+    "mfe": 0.18,
+    "mae": -1.12,
+    "breakout_level": 217.4,
+    "target": 254.2,
+    "invalidation": 198.0,
+    "breakout_hit": false,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "no_move"
+   },
+   {
+    "symbol": "COALINDIA",
+    "confidence": 87,
+    "setup": "Range breakout",
+    "sector": "Oil Gas & Consumable Fuels",
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "fundamental_score": 10,
+    "morning_price": 431.0,
+    "close": 432.0,
+    "high": 436.3,
+    "low": 430.0,
+    "pct_move": 0.23,
+    "mfe": 1.23,
+    "mae": -0.23,
+    "breakout_level": 435.4,
+    "target": 478.7,
+    "invalidation": 390.9,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "partial_success"
+   },
+   {
+    "symbol": "ADANIPORTS",
+    "confidence": 86,
+    "setup": "Range breakout",
+    "sector": "Services",
+    "pattern_flags": [
+     "near_range_top"
+    ],
+    "fundamental_score": 9,
+    "morning_price": 1775.0,
+    "close": 1768.0,
+    "high": 1780.0,
+    "low": 1750.4,
+    "pct_move": -0.39,
+    "mfe": 0.28,
+    "mae": -1.39,
+    "breakout_level": 1785.9,
+    "target": 1891.1,
+    "invalidation": 1593.1,
+    "breakout_hit": false,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "no_move"
+   },
+   {
+    "symbol": "OIL",
+    "confidence": 85,
+    "setup": "Range breakout",
+    "sector": "Oil Gas & Consumable Fuels",
+    "pattern_flags": [
+     "tight_range",
+     "higher_highs",
+     "vol_dryup",
+     "near_range_top"
+    ],
+    "fundamental_score": 10,
+    "morning_price": 499.0,
+    "close": 500.3,
+    "high": 514.5,
+    "low": 497.8,
+    "pct_move": 0.26,
+    "mfe": 3.1,
+    "mae": -0.25,
+    "breakout_level": 504.9,
+    "target": 529.9,
+    "invalidation": 457.8,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "partial_success"
+   },
+   {
+    "symbol": "MRPL",
+    "confidence": 84,
+    "setup": "Range breakout",
+    "sector": "Oil Gas & Consumable Fuels",
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "fundamental_score": 7,
+    "morning_price": 184.5,
+    "close": 181.3,
+    "high": 191.9,
+    "low": 176.0,
+    "pct_move": -1.72,
+    "mfe": 4.01,
+    "mae": -4.6,
+    "breakout_level": 189.0,
+    "target": 212.0,
+    "invalidation": 167.1,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "failed_breakout"
+   },
+   {
+    "symbol": "AEGISVOPAK",
+    "confidence": 83,
+    "setup": "Range breakout",
+    "sector": "Oil Gas & Consumable Fuels",
+    "pattern_flags": [
+     "near_range_top"
+    ],
+    "fundamental_score": 6,
+    "morning_price": 297.6,
+    "close": 291.9,
+    "high": 300.7,
+    "low": 289.2,
+    "pct_move": -1.93,
+    "mfe": 1.04,
+    "mae": -2.81,
+    "breakout_level": 299.4,
+    "target": 311.5,
+    "invalidation": 258.3,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "failed_breakout"
+   },
+   {
+    "symbol": "PCBL",
+    "confidence": 82,
+    "setup": "Range breakout",
+    "sector": "Chemicals",
+    "pattern_flags": [
+     "tight_range",
+     "near_range_top"
+    ],
+    "fundamental_score": 7,
+    "morning_price": 335.0,
+    "close": 334.8,
+    "high": 346.0,
+    "low": 333.1,
+    "pct_move": -0.06,
+    "mfe": 3.28,
+    "mae": -0.57,
+    "breakout_level": 341.5,
+    "target": 413.2,
+    "invalidation": 308.1,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "failed_breakout"
+   },
+   {
+    "symbol": "JSL",
+    "confidence": 81,
+    "setup": "Range breakout",
+    "sector": "Metals & Mining",
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "fundamental_score": 10,
+    "morning_price": 783.3,
+    "close": 762.2,
+    "high": 790.5,
+    "low": 760.1,
+    "pct_move": -2.7,
+    "mfe": 0.92,
+    "mae": -2.96,
+    "breakout_level": 794.0,
+    "target": 879.2,
+    "invalidation": 696.0,
+    "breakout_hit": false,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "failed"
+   },
+   {
+    "symbol": "NAVINFLUOR",
+    "confidence": 80,
+    "setup": "Range breakout",
+    "sector": "Chemicals",
+    "pattern_flags": [
+     "tight_range",
+     "higher_highs",
+     "near_range_top"
+    ],
+    "fundamental_score": 9,
+    "morning_price": 8775.5,
+    "close": 8700.5,
+    "high": 8771.5,
+    "low": 8622.0,
+    "pct_move": -0.85,
+    "mfe": -0.05,
+    "mae": -1.75,
+    "breakout_level": 8949.5,
+    "target": 8949.5,
+    "invalidation": 8090.0,
+    "breakout_hit": false,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "no_move"
+   }
+  ]
+ },
+ "/api/pred/2026-09-11": {
+  "date": "2026-09-11",
+  "scan_timestamp": "2026-09-11T07:01:53",
+  "frozen": true,
+  "global_context": {
+   "score": 34,
+   "regime": "Headwind",
+   "labels": [
+    "SPX -0.58%",
+    "NDX -1.08%",
+    "VIX 18",
+    "DXY -0.05%",
+    "NI225 -2.69%",
+    "HSI -0.95%",
+    "GIFT Nifty -0.43%",
+    "USDINR -0.01%",
+    "US10Y 4.95% (+0.12)"
+   ],
+   "raw": {
+    "SP:SPX": 7591.7,
+    "NASDAQ:NDX": 29103.51,
+    "NASDAQ:QQQ": 708.69,
+    "AMEX:SPY": 757.83,
+    "AMEX:DIA": 520.75,
+    "AMEX:IWM": 287.7,
+    "TVC:VIX": 17.85,
+    "TVC:DXY": 99.04,
+    "AMEX:GLD": 396.36,
+    "AMEX:USO": 158.38,
+    "TVC:NI225": 63513.52,
+    "TVC:HSI": 24718.15,
+    "NSEIX:NIFTY1!": 23360,
+    "FX_IDC:USDINR": 95.43
+   },
+   "us10y": {
+    "yield": 4.95,
+    "chg_1d": 0.12,
+    "date": "09/10/2026",
+    "ok": true
+   },
+   "missing": []
+  },
+  "market_regime": {
+   "score": 39,
+   "regime": "Weak",
+   "nifty_close": 23477.8
+  },
+  "news_snapshot": {
+   "nse_filings": [
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life MF-Aditya Birla Sun Life Nifty Healthcare ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life BSE Sensex ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life CRISIL Liquid Overnight ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life MF- Aditya Birla Sun Life MSCI India ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life MF - Aditya Birla Sun Life BSE Top 10 Banks ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "AdityaBirlaSunLifeMF - Aditya Birla Sun Life CRISIL 10 Year Gilt ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life Mutual Fund - Aditya Birla Sun Life Nifty 200 Mo",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life Mutual Fund - ABSL Nifty 200 Quality 30 ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life Mutual Fund - Aditya Birla Sun Life Nifty IT ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life Mutual Fund-Aditya Birla Sun Life Nifty PSE ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "AdityaBirlaSunLifeMF-Aditya Birla Sun Life CRISIL Broad Based Gilt ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life Nifty 50 ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life Gold ETF - Growth",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life Nifty Bank ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "announcements",
+     "title": "Aditya Birla Sun Life Nifty Next 50 ETF",
+     "published": "11-Sep-2026 07:00:00"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 17:39:16"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 17:39:15"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 13:25:32"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 13:25:31"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Paisalo Digital Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pearl Global Industries Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "The Phoenix Mills Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pitti Engineering Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pondy Oxides & Chemicals Limited - Ex-Date: 15-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Poddar Pigments Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "PPAP Automotive Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pyramid Technoplast Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Relaxo Footwears Limited - Ex-Date: 18-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Orient Refractories Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Rupa & Company Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Sandhar Technologies Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Suratwwala Business Group Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Shaily Engineering Plastics Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Sri Lotus Developers and Realty Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "11-Sep-2026 06:09:14"
+    }
+   ],
+   "global_headlines": [
+    {
+     "topic": "india_macro",
+     "title": "India\u2019s capital markets are being developed as transparent, well-governed & investable for long | Akashvani News - News On AIR",
+     "published": "Thu, 10 Sep 2026 20:50:12 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "Sebi likely to allow co-location for commodity markets next year - Livemint",
+     "published": "Fri, 11 Sep 2026 00:25:35 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "Vulnerabilities Spread With Interconnected Markets, Sharper Regulatory Oversight Needed: Tuhin Kanta Pandey, Sebi Chair - BW Disrupt",
+     "published": "Thu, 10 Sep 2026 18:02:18 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "Sebi launches Demat 2.0 pilot for tokenised corporate bonds, enables instant settlement - Fortune India",
+     "published": "Thu, 10 Sep 2026 19:40:16 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "GFF 2026: SEBI turns to AI, analytics for predictive supervision as market risks move faster: Tuhin Kanta Pa.. - bfsi.economictimes.indiatim",
+     "published": "Thu, 10 Sep 2026 12:06:16 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "CAS is here to stay, liquidity builds up over time, says SEBI's Tuhin Kanta Pandey - Moneycontrol.com",
+     "published": "Thu, 10 Sep 2026 10:54:01 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "Initial liquidity issues with CAS seen across global markets: Sebi chief - Business Standard",
+     "published": "Thu, 10 Sep 2026 13:21:07 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "CAS here to stay, liquidity will pick up, says Sebi Chief - The Economic Times",
+     "published": "Fri, 11 Sep 2026 00:52:17 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "SEBI, RBI launch Demat 2.0 pilot for tokenised corporate bonds - thehindubusinessline.com",
+     "published": "Thu, 10 Sep 2026 16:29:18 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "SEBI says AI alerts are not findings, need human oversight - MediaNama",
+     "published": "Thu, 10 Sep 2026 11:55:26 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Fed, eyeing inflation data, may lean toward a hike, traders bet - Reuters",
+     "published": "Thu, 10 Sep 2026 21:18:51 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Gold Price Steadies Near $4,400, Silver Holds Above $66 as Markets Brace for a Fed Decision Complicated by War - India Infoline",
+     "published": "Thu, 10 Sep 2026 13:22:09 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Gold Falls as Traders Raise Fed Hike Bets After US Price Report - Livemint",
+     "published": "Thu, 10 Sep 2026 23:42:00 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Wall Street Highlights: S&P 500, Nasdaq, Bonds Drop As Oil Spike Boosts Fed Wagers - NDTV Profit",
+     "published": "Fri, 11 Sep 2026 01:06:07 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Rise in Treasury, JGB yields, oil spike fuel bet on Fed rate hike - Ahmedabad Mirror",
+     "published": "Thu, 10 Sep 2026 19:06:18 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Better Markets\u2019 Lawsuit Against the Federal Reserve and Vice Chair Bowman for Corruption - Better Markets",
+     "published": "Thu, 10 Sep 2026 22:13:12 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "The ECB Could Tell Markets What Fed\u2019s Warsh Won\u2019t - Barron's",
+     "published": "Thu, 10 Sep 2026 23:08:00 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "The Inflation Measure Keeping the Fed Cautious - VT Markets",
+     "published": "Thu, 10 Sep 2026 12:11:39 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Inflation won\u2019t die. Now the bond market is daring the Fed to do something about it - Fortune",
+     "published": "Thu, 10 Sep 2026 17:37:00 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Market Turmoil: Rising Oil Prices and Fed Rate Hike Concerns Shake Wall Street - Devdiscourse",
+     "published": "Thu, 10 Sep 2026 18:20:37 GMT"
+    }
+   ],
+   "pick_alerts": [
+    {
+     "symbol": "EMMVEE",
+     "headlines": [
+      "Emmvee Photovoltaic Power Bull Case vs Bear Case for 2026 - Univest",
+      "Emmvee Photovoltaic to host investor meet at Jefferies India Forum 2026 - scanx.trade",
+      "Is Emmvee Photovoltaic Power a Good Buy After Its Q1 FY27 Results? - Univest"
+     ]
+    },
+    {
+     "symbol": "ACUTAAS",
+     "headlines": [
+      "Already up 137% in 1 year still JM Financial sees more upside in this stock | Check target price, shareholding pattern -",
+      "ACUTAAS CHEMICALS Share Price Today Up 7% - Equitymaster",
+      "Acutaas Chemicals Shares Jump 7% After JM Financial Gives \u2018Buy\u2019 Rating - Analytics Insight"
+     ]
+    },
+    {
+     "symbol": "FINCABLES",
+     "headlines": [
+      "Finolex Cables 52 Week High Streak: Fund and Sector View - Univest"
+     ]
+    },
+    {
+     "symbol": "OIL",
+     "headlines": [
+      "U.S. Crude Oil Stockpiles Fall, Production Hits Record - WSJ",
+      "Global bonds fall as surging oil prices inflame inflation risks - Reuters",
+      "Futures: S&P 500 Breaks 50-Day As Oil, Yields Soar; CPI Inflation Due - Investor's Business Daily"
+     ]
+    }
+   ],
+   "sources_ok": [
+    "nse_rss",
+    "google_news_rss"
+   ]
+  },
+  "data_completeness_pct": 100,
+  "universe": 501,
+  "scanned": 501,
+  "nifty_chg_1d": 0.2,
+  "data_sources": {
+   "indicators": "tradingview_ta 1d",
+   "history": "yfinance 1y EOD",
+   "news": "NSE RSS + Google News RSS",
+   "global": "TV + US Treasury",
+   "audit": "All free sources; delayed EOD data (\u00a717)"
+  },
+  "picks": [
+   {
+    "symbol": "EMMVEE",
+    "sector": "Capital Goods",
+    "price": 342.6,
+    "breakout_level": 344.9,
+    "target": 371.5,
+    "invalidation": 314.4,
+    "confidence": 81,
+    "rr": 5.1,
+    "setup": "Range breakout",
+    "vol_ratio": 2.76,
+    "pct_from_52h": -7.8,
+    "rsi": 63.4,
+    "fundamentals": {
+     "pe": 17.855654,
+     "pb": 6.4175076,
+     "roe": null,
+     "de": 9.745,
+     "earnings_growth": 0.737,
+     "mcap": 237232013312,
+     "score": 11
+    },
+    "pattern_flags": [
+     "tight_range",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 10,
+     "rr": 10,
+     "pattern": 4,
+     "news": 0,
+     "fundamental": 11
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "ABSLAMC",
+    "sector": "Financial Services",
+    "price": 1066.5,
+    "breakout_level": 1070.3,
+    "target": 1195.0,
+    "invalidation": 990.3,
+    "confidence": 78,
+    "rr": 8.9,
+    "setup": "Consolidation breakout",
+    "vol_ratio": 1.25,
+    "pct_from_52h": -10.7,
+    "rsi": 61.7,
+    "fundamentals": {
+     "pe": 31.305723,
+     "pb": 7.7781115,
+     "roe": null,
+     "de": 1.577,
+     "earnings_growth": 0.113,
+     "mcap": 314966736896,
+     "score": 10
+    },
+    "pattern_flags": [
+     "tight_range",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 10,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 10,
+     "rr": 10,
+     "pattern": 4,
+     "news": 0,
+     "fundamental": 10
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "ACUTAAS",
+    "sector": "Healthcare",
+    "price": 3451.4,
+    "breakout_level": 3464.0,
+    "target": 3740.0,
+    "invalidation": 3081.2,
+    "confidence": 78,
+    "rr": 6.1,
+    "setup": "Range breakout",
+    "vol_ratio": 3.25,
+    "pct_from_52h": -7.7,
+    "rsi": 61.4,
+    "fundamentals": {
+     "pe": 68.95904,
+     "pb": 17.092484,
+     "roe": null,
+     "de": 2.081,
+     "earnings_growth": 0.671,
+     "mcap": 282569965568,
+     "score": 7
+    },
+    "pattern_flags": [
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 10,
+     "rr": 10,
+     "pattern": 3,
+     "news": 0,
+     "fundamental": 7
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "FINCABLES",
+    "sector": "Capital Goods",
+    "price": 1418.4,
+    "breakout_level": 1429.0,
+    "target": 1429.0,
+    "invalidation": 1178.1,
+    "confidence": 78,
+    "rr": 0.4,
+    "setup": "Trend continuation",
+    "vol_ratio": 2.1,
+    "pct_from_52h": -0.7,
+    "rsi": 68.4,
+    "fundamentals": {
+     "pe": 27.079039,
+     "pb": 3.5655482,
+     "roe": null,
+     "de": 0.314,
+     "earnings_growth": 0.532,
+     "mcap": 216929173504,
+     "score": 11
+    },
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 10,
+     "rr": 3,
+     "pattern": 5,
+     "news": 0,
+     "fundamental": 11
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "OIL",
+    "sector": "Oil Gas & Consumable Fuels",
+    "price": 499.0,
+    "breakout_level": 504.9,
+    "target": 529.9,
+    "invalidation": 457.8,
+    "confidence": 76,
+    "rr": 2.8,
+    "setup": "Range breakout",
+    "vol_ratio": 1.13,
+    "pct_from_52h": -5.8,
+    "rsi": 66.3,
+    "fundamentals": {
+     "pe": 9.744838,
+     "pb": 1.4029016,
+     "roe": null,
+     "de": 58.741,
+     "earnings_growth": 0.914,
+     "mcap": 813791838208,
+     "score": 10
+    },
+    "pattern_flags": [
+     "tight_range",
+     "higher_highs",
+     "vol_dryup",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 10,
+     "momentum": 13,
+     "rs": 5,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 9,
+     "news": 0,
+     "fundamental": 10
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "PNB",
+    "sector": "Financial Services",
+    "price": 116.8,
+    "breakout_level": 119.1,
+    "target": 131.3,
+    "invalidation": 113.2,
+    "confidence": 74,
+    "rr": 4.2,
+    "setup": "Consolidation breakout",
+    "vol_ratio": 1.52,
+    "pct_from_52h": -11.0,
+    "rsi": 56.7,
+    "fundamentals": {
+     "pe": 6.0169926,
+     "pb": 0.8588501,
+     "roe": 0.14965999,
+     "de": null,
+     "earnings_growth": 0.019,
+     "mcap": 1342950342656,
+     "score": 12
+    },
+    "pattern_flags": [
+     "tight_range"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 8,
+     "rs": 5,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 4,
+     "news": 0,
+     "fundamental": 12
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "REDINGTON",
+    "sector": "Services",
+    "price": 392.0,
+    "breakout_level": 403.2,
+    "target": 403.2,
+    "invalidation": 322.7,
+    "confidence": 72,
+    "rr": 0.7,
+    "setup": "Trend continuation",
+    "vol_ratio": 3.59,
+    "pct_from_52h": -2.8,
+    "rsi": 70.4,
+    "fundamentals": {
+     "pe": 17.360497,
+     "pb": 3.0160806,
+     "roe": null,
+     "de": 27.26,
+     "earnings_growth": 0.767,
+     "mcap": 306455576576,
+     "score": 11
+    },
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 7,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 3,
+     "pattern": 5,
+     "news": 0,
+     "fundamental": 11
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "CHENNPETRO",
+    "sector": "Oil Gas & Consumable Fuels",
+    "price": 1626.4,
+    "breakout_level": 1663.3,
+    "target": 1663.3,
+    "invalidation": 1309.1,
+    "confidence": 71,
+    "rr": 0.7,
+    "setup": "Trend continuation",
+    "vol_ratio": 1.82,
+    "pct_from_52h": -2.2,
+    "rsi": 74.6,
+    "fundamentals": {
+     "pe": 5.72414,
+     "pb": 2.1801462,
+     "roe": null,
+     "de": 17.68,
+     "earnings_growth": null,
+     "mcap": 242189484032,
+     "score": 9
+    },
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 7,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 3,
+     "pattern": 5,
+     "news": 0,
+     "fundamental": 9
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "KPIL",
+    "sector": "Construction",
+    "price": 1432.0,
+    "breakout_level": 1452.7,
+    "target": 1468.0,
+    "invalidation": 1342.8,
+    "confidence": 70,
+    "rr": 1.0,
+    "setup": "Consolidation breakout",
+    "vol_ratio": 0.79,
+    "pct_from_52h": -2.5,
+    "rsi": 62.2,
+    "fundamentals": {
+     "pe": 21.186567,
+     "pb": 3.144661,
+     "roe": null,
+     "de": 45.814,
+     "earnings_growth": 0.452,
+     "mcap": 244546289664,
+     "score": 11
+    },
+    "pattern_flags": [
+     "tight_range",
+     "vol_dryup",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 5,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 3,
+     "pattern": 6,
+     "news": 0,
+     "fundamental": 11
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "CAPLIPOINT",
+    "sector": "Healthcare",
+    "price": 2795.4,
+    "breakout_level": 2877.3,
+    "target": 2877.3,
+    "invalidation": 2382.5,
+    "confidence": 69,
+    "rr": 0.7,
+    "setup": "Trend continuation",
+    "vol_ratio": 1.0,
+    "pct_from_52h": -2.8,
+    "rsi": 62.5,
+    "fundamentals": {
+     "pe": 31.153458,
+     "pb": 6.050335,
+     "roe": null,
+     "de": 0.127,
+     "earnings_growth": 0.159,
+     "mcap": 212483080192,
+     "score": 11
+    },
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 5,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 3,
+     "pattern": 5,
+     "news": 0,
+     "fundamental": 11
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   }
+  ],
+  "results": [
+   {
+    "symbol": "EMMVEE",
+    "confidence": 81,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 10,
+     "rr": 10,
+     "pattern": 4,
+     "news": 0,
+     "fundamental": 11
+    },
+    "setup": "Range breakout",
+    "sector": "Capital Goods",
+    "pattern_flags": [
+     "tight_range",
+     "near_range_top"
+    ],
+    "fundamental_score": 11,
+    "morning_price": 342.6,
+    "close": 346.0,
+    "high": 348.2,
+    "low": 332.9,
+    "pct_move": 0.99,
+    "mfe": 1.63,
+    "mae": -2.83,
+    "breakout_level": 344.9,
+    "target": 371.5,
+    "invalidation": 314.4,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "partial_success"
+   },
+   {
+    "symbol": "ABSLAMC",
+    "confidence": 78,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 10,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 10,
+     "rr": 10,
+     "pattern": 4,
+     "news": 0,
+     "fundamental": 10
+    },
+    "setup": "Consolidation breakout",
+    "sector": "Financial Services",
+    "pattern_flags": [
+     "tight_range",
+     "near_range_top"
+    ],
+    "fundamental_score": 10,
+    "morning_price": 1066.5,
+    "close": 1109.9,
+    "high": 1116.9,
+    "low": 1067.1,
+    "pct_move": 4.07,
+    "mfe": 4.73,
+    "mae": 0.06,
+    "breakout_level": 1070.3,
+    "target": 1195.0,
+    "invalidation": 990.3,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "partial_success"
+   },
+   {
+    "symbol": "ACUTAAS",
+    "confidence": 78,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 10,
+     "rr": 10,
+     "pattern": 3,
+     "news": 0,
+     "fundamental": 7
+    },
+    "setup": "Range breakout",
+    "sector": "Healthcare",
+    "pattern_flags": [
+     "near_range_top"
+    ],
+    "fundamental_score": 7,
+    "morning_price": 3451.4,
+    "close": 3383.7,
+    "high": 3488.0,
+    "low": 3350.0,
+    "pct_move": -1.96,
+    "mfe": 1.06,
+    "mae": -2.94,
+    "breakout_level": 3464.0,
+    "target": 3740.0,
+    "invalidation": 3081.2,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "failed_breakout"
+   },
+   {
+    "symbol": "FINCABLES",
+    "confidence": 78,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 10,
+     "rr": 3,
+     "pattern": 5,
+     "news": 0,
+     "fundamental": 11
+    },
+    "setup": "Trend continuation",
+    "sector": "Capital Goods",
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "fundamental_score": 11,
+    "morning_price": 1418.4,
+    "close": 1424.0,
+    "high": 1498.0,
+    "low": 1340.1,
+    "pct_move": 0.39,
+    "mfe": 5.61,
+    "mae": -5.52,
+    "breakout_level": 1429.0,
+    "target": 1429.0,
+    "invalidation": 1178.1,
+    "breakout_hit": true,
+    "target_hit": true,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "partial_success"
+   },
+   {
+    "symbol": "OIL",
+    "confidence": 76,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 10,
+     "momentum": 13,
+     "rs": 5,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 9,
+     "news": 0,
+     "fundamental": 10
+    },
+    "setup": "Range breakout",
+    "sector": "Oil Gas & Consumable Fuels",
+    "pattern_flags": [
+     "tight_range",
+     "higher_highs",
+     "vol_dryup",
+     "near_range_top"
+    ],
+    "fundamental_score": 10,
+    "morning_price": 499.0,
+    "close": 489.8,
+    "high": 512.0,
+    "low": 485.4,
+    "pct_move": -1.84,
+    "mfe": 2.6,
+    "mae": -2.73,
+    "breakout_level": 504.9,
+    "target": 529.9,
+    "invalidation": 457.8,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "failed_breakout"
+   },
+   {
+    "symbol": "PNB",
+    "confidence": 74,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 8,
+     "rs": 5,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 4,
+     "news": 0,
+     "fundamental": 12
+    },
+    "setup": "Consolidation breakout",
+    "sector": "Financial Services",
+    "pattern_flags": [
+     "tight_range"
+    ],
+    "fundamental_score": 12,
+    "morning_price": 116.8,
+    "close": 116.8,
+    "high": 117.8,
+    "low": 114.5,
+    "pct_move": -0.04,
+    "mfe": 0.85,
+    "mae": -1.95,
+    "breakout_level": 119.1,
+    "target": 131.3,
+    "invalidation": 113.2,
+    "breakout_hit": false,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "no_move"
+   },
+   {
+    "symbol": "REDINGTON",
+    "confidence": 72,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 7,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 3,
+     "pattern": 5,
+     "news": 0,
+     "fundamental": 11
+    },
+    "setup": "Trend continuation",
+    "sector": "Services",
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "fundamental_score": 11,
+    "morning_price": 392.0,
+    "close": 393.7,
+    "high": 396.9,
+    "low": 384.2,
+    "pct_move": 0.43,
+    "mfe": 1.24,
+    "mae": -1.99,
+    "breakout_level": 403.2,
+    "target": 403.2,
+    "invalidation": 322.7,
+    "breakout_hit": false,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "no_move"
+   },
+   {
+    "symbol": "CHENNPETRO",
+    "confidence": 71,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 7,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 3,
+     "pattern": 5,
+     "news": 0,
+     "fundamental": 9
+    },
+    "setup": "Trend continuation",
+    "sector": "Oil Gas & Consumable Fuels",
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "fundamental_score": 9,
+    "morning_price": 1626.4,
+    "close": 1572.9,
+    "high": 1677.5,
+    "low": 1563.1,
+    "pct_move": -3.29,
+    "mfe": 3.14,
+    "mae": -3.89,
+    "breakout_level": 1663.3,
+    "target": 1663.3,
+    "invalidation": 1309.1,
+    "breakout_hit": true,
+    "target_hit": true,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "failed_breakout"
+   },
+   {
+    "symbol": "KPIL",
+    "confidence": 70,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 5,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 3,
+     "pattern": 6,
+     "news": 0,
+     "fundamental": 11
+    },
+    "setup": "Consolidation breakout",
+    "sector": "Construction",
+    "pattern_flags": [
+     "tight_range",
+     "vol_dryup",
+     "near_range_top"
+    ],
+    "fundamental_score": 11,
+    "morning_price": 1432.0,
+    "close": 1435.7,
+    "high": 1442.0,
+    "low": 1401.1,
+    "pct_move": 0.26,
+    "mfe": 0.7,
+    "mae": -2.16,
+    "breakout_level": 1452.7,
+    "target": 1468.0,
+    "invalidation": 1342.8,
+    "breakout_hit": false,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "no_move"
+   },
+   {
+    "symbol": "CAPLIPOINT",
+    "confidence": 69,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 5,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 3,
+     "pattern": 5,
+     "news": 0,
+     "fundamental": 11
+    },
+    "setup": "Trend continuation",
+    "sector": "Healthcare",
+    "pattern_flags": [
+     "higher_highs",
+     "near_range_top"
+    ],
+    "fundamental_score": 11,
+    "morning_price": 2795.4,
+    "close": 2754.9,
+    "high": 2790.1,
+    "low": 2716.0,
+    "pct_move": -1.45,
+    "mfe": -0.19,
+    "mae": -2.84,
+    "breakout_level": 2877.3,
+    "target": 2877.3,
+    "invalidation": 2382.5,
+    "breakout_hit": false,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "no_move"
+   }
+  ]
+ },
+ "/api/pred/2026-09-09": {
+  "date": "2026-09-09",
+  "scan_timestamp": "2026-09-09T01:01:21",
+  "frozen": true,
+  "global_context": {
+   "score": 38,
+   "regime": "Headwind",
+   "labels": [
+    "SPX -0.46%",
+    "NDX +0.01%",
+    "VIX 16",
+    "DXY -0.06%",
+    "NI225 -1.70%",
+    "HSI -0.38%",
+    "GIFT Nifty -0.65%",
+    "USDINR +0.35%",
+    "US10Y 4.78% (+0.01)"
+   ],
+   "raw": {
+    "SP:SPX": 7682.74,
+    "NASDAQ:NDX": 29548.46,
+    "NASDAQ:QQQ": 719.14,
+    "AMEX:SPY": 766.91,
+    "AMEX:DIA": 528.56,
+    "AMEX:IWM": 295.6,
+    "TVC:VIX": 15.58,
+    "TVC:DXY": 98.84,
+    "AMEX:GLD": 400.72,
+    "AMEX:USO": 145.55,
+    "TVC:NI225": 65269.33,
+    "TVC:HSI": 25317.19,
+    "NSEIX:NIFTY1!": 23670.5,
+    "FX_IDC:USDINR": 94.81
+   },
+   "us10y": {
+    "yield": 4.78,
+    "chg_1d": 0.01,
+    "date": "09/04/2026",
+    "ok": true
+   },
+   "missing": []
+  },
+  "market_regime": {
+   "score": 26,
+   "regime": "Bearish",
+   "nifty_close": 23635.1
+  },
+  "news_snapshot": {
+   "nse_filings": [
+    {
+     "feed": "announcements",
+     "title": "Danish Power Limited",
+     "published": "09-Sep-2026 00:54:49"
+    },
+    {
+     "feed": "announcements",
+     "title": "Destiny Logistics & Infra Limited",
+     "published": "09-Sep-2026 00:28:47"
+    },
+    {
+     "feed": "announcements",
+     "title": "Destiny Logistics & Infra Limited",
+     "published": "09-Sep-2026 00:24:22"
+    },
+    {
+     "feed": "announcements",
+     "title": "Horizon Industrial Parks Limited",
+     "published": "09-Sep-2026 00:07:38"
+    },
+    {
+     "feed": "announcements",
+     "title": "Kellton Tech Solutions Limited",
+     "published": "09-Sep-2026 00:05:37"
+    },
+    {
+     "feed": "announcements",
+     "title": "Kellton Tech Solutions Limited",
+     "published": "09-Sep-2026 00:01:42"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 17:39:16"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 17:39:15"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 13:25:32"
+    },
+    {
+     "feed": "results",
+     "title": "Asian Hotels (West) Limited \n",
+     "published": "24-Aug-2026 13:25:31"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Shree Digvijay Cement Co.Ltd - Ex-Date: 09-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Sicagen India Limited - Ex-Date: 10-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Sinclairs Hotels Limited - Ex-Date: 08-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Linc Limited - Ex-Date: 10-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Lincoln Pharmaceuticals Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Marine Electricals (India) Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "M & B Engineering Limited - Ex-Date: 10-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pearl Global Industries Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pitti Engineering Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pondy Oxides & Chemicals Limited - Ex-Date: 15-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Polyplex Corporation Limited - Ex-Date: 08-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Power Mech Projects Limited - Ex-Date: 10-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Prince Pipes And Fittings Limited - Ex-Date: 09-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Pyramid Technoplast Limited - Ex-Date: 11-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    },
+    {
+     "feed": "corp_actions",
+     "title": "Radiant Cash Management Services Limited - Ex-Date: 10-Sep-2026 \n",
+     "published": "08-Sep-2026 06:09:08"
+    }
+   ],
+   "global_headlines": [
+    {
+     "topic": "india_macro",
+     "title": "RBI postpones implementation of new rules on capital market exposure by 3 months | Akashvani News - News On AIR",
+     "published": "Tue, 08 Sep 2026 12:23:16 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "As SEBI deadline nears, \u20b938,000 crore IPOs assess listing plans - BusinessLine",
+     "published": "Tue, 08 Sep 2026 14:18:20 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "USD/INR Holds Mid-94 Range as RBI Liquidity Surplus Swells, Inflation Risks Lift Yields - VT Markets",
+     "published": "Tue, 08 Sep 2026 11:06:32 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "India bonds inch up as traders assess RBI liquidity steps - The Economic Times",
+     "published": "Tue, 08 Sep 2026 13:21:54 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "SEBI eases compliance norms for FPIs investing exclusively in government securities - Business Standard",
+     "published": "Tue, 08 Sep 2026 06:34:18 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "Daily Voice: Crude oil, not the Fed, holds key to RBI policy and market rebound, says Sonam Srivastava - Moneycontrol.com",
+     "published": "Tue, 08 Sep 2026 02:44:11 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "SEBI could consider VWAP, tighter bands to address CAS concerns - BusinessLine",
+     "published": "Tue, 08 Sep 2026 15:25:39 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "SEBI gives angel funds 7-month extension to comply with accredited investor mandate - livemint.com",
+     "published": "Tue, 08 Sep 2026 03:44:07 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "India's Capital Market Revolution: First Tokenized Corporate Bond Issuance - Devdiscourse",
+     "published": "Tue, 08 Sep 2026 11:17:24 GMT"
+    },
+    {
+     "topic": "india_macro",
+     "title": "High-speed trader AlphaGrep raises \u20b9200 crore via bonds after RBI curb - Business Standard",
+     "published": "Tue, 08 Sep 2026 06:37:40 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "US markets today: 5 things to track as oil nears $100, Fed rate-hike bets rise - CNBC TV18",
+     "published": "Tue, 08 Sep 2026 12:01:46 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "U.S. consumers grow more uneasy about jobs and finances as inflation outlook holds steady - The Economic Times",
+     "published": "Tue, 08 Sep 2026 15:37:28 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Oil near $100, Fed rate fears and Iran tensions - what\u2019s moving markets - Investing.com",
+     "published": "Tue, 08 Sep 2026 10:52:55 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat - cnbc.com",
+     "published": "Tue, 08 Sep 2026 13:30:33 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "There\u2019s a simple way the Fed could help calm the bond market - CNN",
+     "published": "Tue, 08 Sep 2026 17:33:57 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Watch Markets: Stock Resiliency Depends on Moves by the Fed, Says Principal\u2019s Shah - bloomberg.com",
+     "published": "Tue, 08 Sep 2026 10:44:26 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Copper Scales New Heights on U.S. Tariff Fears, Supply Challenges - wsj.com",
+     "published": "Tue, 08 Sep 2026 09:37:13 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "U.S. stocks usually stumble after Fed hikes, but these markets tend to climb, says Citi - marketwatch.com",
+     "published": "Tue, 08 Sep 2026 09:12:00 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "Rising US Bond Yields Pressure Markets as Investors Demand Clearer Fed Policy - \u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
+     "published": "Tue, 08 Sep 2026 17:48:22 GMT"
+    },
+    {
+     "topic": "global_macro",
+     "title": "HDFC Bank Falls 0.47% as U.S. Jobs Beat Tightens Fed Rate Odds - The Eastern Herald",
+     "published": "Tue, 08 Sep 2026 17:19:14 GMT"
+    }
+   ],
+   "pick_alerts": [
+    {
+     "symbol": "CGPOWER",
+     "headlines": [
+      "Titan, Trent to Dixon: Macquarie\u2019s 12 stock picks with up to 30% upside - financialexpress.com"
+     ]
+    },
+    {
+     "symbol": "GRANULES",
+     "headlines": [
+      "Market trading guide: Data Patterns among four stock recommendations for Wednesday - The Economic Times",
+      "Granules India Signals Breakout From Nine-Week Base - NDTV Profit",
+      "XS346087820 Bond Yield and Price \u2014 MUN:XS346087820 - TradingView"
+     ]
+    },
+    {
+     "symbol": "BRIGADE",
+     "headlines": [
+      "Systematic Industries acquires Wire Brigade, raises \u20b933.94 crore - scanx.trade",
+      "Motilal Oswal's 6 stock picks: V2 Retail, HUL, NTPC...one new buy, one neutral call, and a big upside ahead - The Econom",
+      "Nifty Realty Soars 2.58% on September 3 as Brigade Surges 11% and Festive Season Opens - The Eastern Herald"
+     ]
+    },
+    {
+     "symbol": "GAIL",
+     "headlines": [
+      "Reliance Industries slips Tuesday, underperforms competitors - marketwatch.com",
+      "Indian Markets Fall As Renewable Energy Stocks Show Mixed Performance (08 September 2026) - SolarQuarter",
+      "GAIL Limited and Petronet LNG Limited host MC\u00b2 Plus Hyderabad Connect to Accelerate Innovation and Entrepreneurship in t"
+     ]
+    }
+   ],
+   "sources_ok": [
+    "nse_rss",
+    "google_news_rss"
+   ]
+  },
+  "data_completeness_pct": 100,
+  "universe": 501,
+  "scanned": 320,
+  "nifty_chg_1d": -0.61,
+  "data_sources": {
+   "indicators": "tradingview_ta 1d",
+   "history": "yfinance 1y EOD",
+   "news": "NSE RSS + Google News RSS",
+   "global": "TV + US Treasury",
+   "audit": "All free sources; delayed EOD data (\u00a717)"
+  },
+  "picks": [
+   {
+    "symbol": "CGPOWER",
+    "sector": "Capital Goods",
+    "price": 895.0,
+    "breakout_level": 916.0,
+    "target": 980.9,
+    "invalidation": 860.2,
+    "confidence": 75,
+    "rr": 2.9,
+    "setup": "Consolidation breakout",
+    "vol_ratio": 1.74,
+    "pct_from_52h": -8.8,
+    "rsi": 56.3,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 5,
+     "news": 0
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "GRANULES",
+    "sector": "Healthcare",
+    "price": 867.3,
+    "breakout_level": 882.0,
+    "target": 908.1,
+    "invalidation": 816.0,
+    "confidence": 72,
+    "rr": 1.7,
+    "setup": "Consolidation breakout",
+    "vol_ratio": 1.52,
+    "pct_from_52h": -4.5,
+    "rsi": 65.5,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 7,
+     "rr": 7,
+     "pattern": 5,
+     "news": 0
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "BRIGADE",
+    "sector": "Realty",
+    "price": 696.1,
+    "breakout_level": 735.0,
+    "target": 799.2,
+    "invalidation": 576.0,
+    "confidence": 65,
+    "rr": 2.2,
+    "setup": "Trend continuation",
+    "vol_ratio": 2.16,
+    "pct_from_52h": -12.9,
+    "rsi": 64.8,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 15,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 4,
+     "rr": 7,
+     "pattern": 1,
+     "news": 0
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "EMMVEE",
+    "sector": "Capital Goods",
+    "price": 325.2,
+    "breakout_level": 339.6,
+    "target": 371.5,
+    "invalidation": 313.5,
+    "confidence": 65,
+    "rr": 2.6,
+    "setup": "Range breakout",
+    "vol_ratio": 1.28,
+    "pct_from_52h": -12.5,
+    "rsi": 55.8,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 10,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 4,
+     "rr": 10,
+     "pattern": 3,
+     "news": 0
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "GAIL",
+    "sector": "Oil Gas & Consumable Fuels",
+    "price": 176.0,
+    "breakout_level": 177.4,
+    "target": 181.9,
+    "invalidation": 169.6,
+    "confidence": 62,
+    "rr": 1.8,
+    "setup": "Consolidation breakout",
+    "vol_ratio": 1.36,
+    "pct_from_52h": -3.2,
+    "rsi": 52.1,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 10,
+     "momentum": 10,
+     "rs": 5,
+     "proximity": 10,
+     "rr": 7,
+     "pattern": 5,
+     "news": 0
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "GVT&D",
+    "sector": "Capital Goods",
+    "price": 4367.2,
+    "breakout_level": 4539.0,
+    "target": 5636.0,
+    "invalidation": 4025.0,
+    "confidence": 60,
+    "rr": 5.9,
+    "setup": "Range breakout",
+    "vol_ratio": 0.35,
+    "pct_from_52h": -22.5,
+    "rsi": 64.7,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 5,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 4,
+     "rr": 10,
+     "pattern": 3,
+     "news": 0
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "HOMEFIRST",
+    "sector": "Financial Services",
+    "price": 1210.1,
+    "breakout_level": 1229.0,
+    "target": 1311.6,
+    "invalidation": 1151.9,
+    "confidence": 60,
+    "rr": 3.3,
+    "setup": "Consolidation breakout",
+    "vol_ratio": 1.08,
+    "pct_from_52h": -7.7,
+    "rsi": 64.5,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 5,
+     "momentum": 13,
+     "rs": 5,
+     "proximity": 7,
+     "rr": 10,
+     "pattern": 5,
+     "news": 0
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   },
+   {
+    "symbol": "KIRLOSENG",
+    "sector": "Capital Goods",
+    "price": 2201.9,
+    "breakout_level": 2289.0,
+    "target": 2714.3,
+    "invalidation": 2024.1,
+    "confidence": 60,
+    "rr": 4.7,
+    "setup": "Range breakout",
+    "vol_ratio": 0.8,
+    "pct_from_52h": -18.9,
+    "rsi": 59.5,
+    "score_breakdown": {
+     "tech": 20,
+     "volume": 5,
+     "momentum": 13,
+     "rs": 10,
+     "proximity": 4,
+     "rr": 10,
+     "pattern": 3,
+     "news": 0
+    },
+    "news": "scan unavailable (\u00a717 data gap)"
+   }
+  ],
+  "results": [
+   {
+    "symbol": "CGPOWER",
+    "confidence": 75,
+    "setup": "Consolidation breakout",
+    "sector": "Capital Goods",
+    "pattern_flags": [],
+    "fundamental_score": null,
+    "morning_price": 895.0,
+    "close": 927.0,
+    "high": 930.5,
+    "low": 910.0,
+    "pct_move": 3.57,
+    "mfe": 3.97,
+    "mae": 1.68,
+    "breakout_level": 916.0,
+    "target": 980.9,
+    "invalidation": 860.2,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "partial_success"
+   },
+   {
+    "symbol": "GRANULES",
+    "confidence": 72,
+    "setup": "Consolidation breakout",
+    "sector": "Healthcare",
+    "pattern_flags": [],
+    "fundamental_score": null,
+    "morning_price": 867.3,
+    "close": 884.8,
+    "high": 901.8,
+    "low": 878.1,
+    "pct_move": 2.02,
+    "mfe": 3.98,
+    "mae": 1.25,
+    "breakout_level": 882.0,
+    "target": 908.1,
+    "invalidation": 816.0,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "partial_success"
+   },
+   {
+    "symbol": "BRIGADE",
+    "confidence": 65,
+    "setup": "Trend continuation",
+    "sector": "Realty",
+    "pattern_flags": [],
+    "fundamental_score": null,
+    "morning_price": 696.1,
+    "close": 662.9,
+    "high": 689.3,
+    "low": 656.3,
+    "pct_move": -4.77,
+    "mfe": -0.98,
+    "mae": -5.72,
+    "breakout_level": 735.0,
+    "target": 799.2,
+    "invalidation": 576.0,
+    "breakout_hit": false,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "failed"
+   },
+   {
+    "symbol": "EMMVEE",
+    "confidence": 65,
+    "setup": "Range breakout",
+    "sector": "Capital Goods",
+    "pattern_flags": [],
+    "fundamental_score": null,
+    "morning_price": 325.2,
+    "close": 328.9,
+    "high": 338.0,
+    "low": 328.0,
+    "pct_move": 1.14,
+    "mfe": 3.94,
+    "mae": 0.85,
+    "breakout_level": 339.6,
+    "target": 371.5,
+    "invalidation": 313.5,
+    "breakout_hit": false,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "no_move"
+   },
+   {
+    "symbol": "GAIL",
+    "confidence": 62,
+    "setup": "Consolidation breakout",
+    "sector": "Oil Gas & Consumable Fuels",
+    "pattern_flags": [],
+    "fundamental_score": null,
+    "morning_price": 176.0,
+    "close": 174.9,
+    "high": 175.6,
+    "low": 173.6,
+    "pct_move": -0.63,
+    "mfe": -0.23,
+    "mae": -1.36,
+    "breakout_level": 177.4,
+    "target": 181.9,
+    "invalidation": 169.6,
+    "breakout_hit": false,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "no_move"
+   },
+   {
+    "symbol": "GVT&D",
+    "confidence": 60,
+    "setup": "Range breakout",
+    "sector": "Capital Goods",
+    "pattern_flags": [],
+    "fundamental_score": null,
+    "morning_price": 4367.2,
+    "close": 4673.0,
+    "high": 4825.0,
+    "low": 4638.8,
+    "pct_move": 7.0,
+    "mfe": 10.48,
+    "mae": 6.22,
+    "breakout_level": 4539.0,
+    "target": 5636.0,
+    "invalidation": 4025.0,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "partial_success"
+   },
+   {
+    "symbol": "HOMEFIRST",
+    "confidence": 60,
+    "setup": "Consolidation breakout",
+    "sector": "Financial Services",
+    "pattern_flags": [],
+    "fundamental_score": null,
+    "morning_price": 1210.1,
+    "close": 1202.3,
+    "high": 1231.0,
+    "low": 1190.5,
+    "pct_move": -0.64,
+    "mfe": 1.73,
+    "mae": -1.62,
+    "breakout_level": 1229.0,
+    "target": 1311.6,
+    "invalidation": 1151.9,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": false,
+    "outcome": "failed_breakout"
+   },
+   {
+    "symbol": "KIRLOSENG",
+    "confidence": 60,
+    "setup": "Range breakout",
+    "sector": "Capital Goods",
+    "pattern_flags": [],
+    "fundamental_score": null,
+    "morning_price": 2201.9,
+    "close": 2219.9,
+    "high": 2317.1,
+    "low": 2198.0,
+    "pct_move": 0.82,
+    "mfe": 5.23,
+    "mae": -0.18,
+    "breakout_level": 2289.0,
+    "target": 2714.3,
+    "invalidation": 2024.1,
+    "breakout_hit": true,
+    "target_hit": false,
+    "invalidated": false,
+    "direction_correct": true,
+    "outcome": "partial_success"
+   }
+  ]
+ }
+}
